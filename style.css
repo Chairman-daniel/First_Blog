@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+/* LINEAR COLOR
+    linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+*/
+
+button:hover, li{
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 19px;
+    height: 10vh;
+}
+
+.navlogo h2{
+    position: relative;
+}
+
+.navlogo h2::after{
+    content: '';
+    height: 4px;
+    width: 40%;
+    background-color: rgb(1, 1, 71);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.navUl{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: 100;
+}
+
+.navLi{
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+}
+
+.navUl .navLi:hover{
+    height: 10vh;
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+.navicon ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navicon ul li a:hover{
+    color: darkslateblue;
+}
+
+/* NAV ENDS */
+
+.firstSection{
+    height: 90vh;
+    background-image: url(img/owl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.firstSectionDiv h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.firstSectionDiv h2{
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.firstSectionDiv button{
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 255, 255, 0.692);
+}
+
+.firstSectionDiv button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    transition:  0.6s;
+}
+
+/* FIRST SECTION ENDS */
+
+.secondSection{
+    height: auto;
+    background: url(img/Abract01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+article{
+    margin: 80px 0;
+    height: 67vh;
+    width: 20%;
+    background: transparent;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px 2px darkgrey;
+}
+
+.secondSectionCard1 .cardImage{
+    background-image: url(img/panda.jpg);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.secondSectionCard2 .cardImage{
+    background-image: url(img/humming\ bird.jpg);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.secondSectionCard3 .cardImage{
+    background-image: url(img/cat\ and\ dog.jpg);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cardText{
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardText h2{
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.cardText button{
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgba(127, 255, 212, 0.541);
+    border: transparent;
+}
+
+.cardText p{
+    font-size: 14px;
+    color: rgb(117, 115, 115);
+}
+
+/* SECOND SECTION ENDS */
+
+.thirdSection{
+    display: grid;
+    grid-template-columns: 0.67fr 0.27fr;
+    height: auto;
+}
+
+.thirdSectionImage{
+    width: 80%;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 90px;
+    z-index: 1000;
+}
+
+.thirdSectionImage .thirdImg{
+    height: 60vh;
+    background-image: url(img/cow\ farm.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.adminbtn ul{
+    padding: 19px;
+    border-radius: 30px;
+    background: lightblue;
+    margin: -30px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* 2ND HALF OF SECTION 3 */
+
+.thirdSectionText h2{
+    margin-bottom: 20px;
+}
+
+.thirdSectionText ul{
+    list-style: none;
+}
+
+.thirdSectionText ul li{
+    display: flex;
+    justify-content: space-between;
+    background: lightsteelblue;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* THIRD SECTION ENDS */
+
+.fourthSection{
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 0.67fr 0.27fr;
+    margin-top: -30px;
+}
+
+.fourthSectionText{
+    width: 80%;
+    height: 70vh;
+    margin-left: 90px;
+    color: rgb(80, 78, 78);
+}
+
+.fourthSectionText h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.fourthSectionText p{
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.fourthSectionBtn{
+    padding: 8px 17px;
+    margin-bottom: 10px;
+    border: transparent;
+    font-size: 15px;
+    letter-spacing: 4px;
+    background-color: lightblue;
+}
+
+/* 2ND HALF OF SECTION 4 */
+
+.fourthSectionImage h2{
+    margin-top: -30px;
+}
+
+.fourthSectionImage .fourthimg{
+    margin-top: 40px;
+    height: 40%;
+    width: 100%;
+    background-image: url(img/cow.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourthImgBtn ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;
+    font-size: 12px;
+    background-color: white;
+    margin-top: -20px;
+    padding: 13px;
+}   
+
+.fourthSectionImage p{
+    letter-spacing: 3px;
+}
+
+/* FOURTH SECTION ENDS */
+
+.fifthSection{
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.67fr 0.27fr;
+}
+
+.fifthSectionImage{
+    width: 80%;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 90px;
+}
+
+.fifthSectionImage .fifthImg{
+    height: 60vh;
+    background: url(img/horse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 2ND HALF OF SECTION 5 */
+
+.fifthSectionImg .fifthimg1{ 
+    height: 40%;
+    width: 100%;
+    background-image: url(img/blog4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fifthImgBtn ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;
+    font-size: 12px;
+    background-color: white;
+    margin-top: -20px;
+    padding: 13px;
+}
+
+.fifthSectionImg .fifthimg2{ 
+    height: 40%;
+    width: 100%;
+    background-image: url(img/humming\ bird.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fifthSectionImg p{
+    letter-spacing: 3px;
+    margin-bottom: 7px;
+}
+
+/* FIFTH SECTION ENDS */
+
+.sixthSection{
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 0.67fr 0.27fr;
+    margin-top: -30px;
+}
+
+.sixthSectionText{
+    width: 80%;
+    height: 70vh;
+    margin-left: 90px;
+    color: rgb(80, 78, 78);
+}
+
+.sixthSectionText h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.sixthSectionText p{
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.sixthSectionBtn{
+    padding: 8px 17px;
+    margin-bottom: 10px;
+    border: transparent;
+    font-size: 15px;
+    letter-spacing: 4px;
+    background-color: lightblue;
+}
+
+/* 2ND HALF OF SECTION 6 */
+
+.sixthSectionImage .sixthimg{
+    margin-top: 40px;
+    height: 40%;
+    width: 100%;
+    background-image: url(img/panda.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sixthImgBtn ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;
+    font-size: 12px;
+    background-color: white;
+    margin-top: -20px;
+    padding: 13px;
+}   
+
+.sixthSectionImage p{
+    letter-spacing: 3px;
+}
+
+/* SIXTH SECTION ENDS */
+
+.seventhSection{
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.67fr 0.27fr;
+}
+
+.seventhSectionImage{
+    width: 80%;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 90px;
+}
+
+.seventhSectionImage .seventhImg{
+    height: 60vh;
+    background: url(img/polar\ bear.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 2ND HALF OF SECTION 7 */
+
+.seventhSectionImg .seventhimg{ 
+    height: 40%;
+    width: 100%;
+    background-image: url(img/post-10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seventhImgBtn ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;
+    font-size: 12px;
+    background-color: white;
+    margin-top: -20px;
+    padding: 13px;
+}
+
+.seventhSectionImg p{
+    letter-spacing: 3px;
+    margin-bottom: 7px;
+}
+
+/* SEVENTH SECTION ENDS */
+
+.eighthSection{
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.67fr 0.27fr;
+    margin-top: -30px;
+}
+
+.eighthSectionText{
+    width: 80%;
+    height: 43vh;
+    margin-left: 90px;
+    color: rgb(80, 78, 78);
+}
+
+.eighthSectionText h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.eighthSectionText p{
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.eighthSectionBtn{
+    padding: 8px 17px;
+    margin-bottom: 10px;
+    border: transparent;
+    font-size: 15px;
+    letter-spacing: 4px;
+    background-color: lightblue;
+}
+
+/* 2ND HALF OF SECTION 8 */
+
+input{
+    width: 70%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.eighthSectionForm h2{
+    margin-bottom: 14px;
+    font-weight: 400;
+}
+
+.eighthSectionBtn2{
+    width: 70%;
+    height: 40px;
+    font-size: 15px;
+    background-color: lightblue;
+    letter-spacing: 4px;
+    border: transparent;
+}   
+
+.eighthSectionImage p{
+    letter-spacing: 3px;
+}
+
+/* EIGHTH SECTION ENDS */
+
+.ninthSection{
+    display: grid;
+    grid-template-columns: 0.67fr 0.27fr;
+    height: auto;
+}
+
+.ninthSectionImage{
+    width: 80%;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 90px;
+    z-index: 1000;
+}
+
+.ninthSectionImage .ninthImg{
+    height: 60vh;
+    background-image: url(img/rooster.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.adminbtn ul{
+    padding: 19px;
+    border-radius: 30px;
+    background: lightblue;
+    margin: -30px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* 2ND HALF OF SECTION 9 */
+
+.ninthSectionText h2{
+    margin-bottom: 40px;
+}
+
+.ninthSectionText ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    gap: 30px;
+}
+
+.ninthSectionText ul li{
+    background: rgb(148, 225, 248);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+/* NINTH SECTION ENDS */
+
+.tenthSection{
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.67fr;
+    margin-top: -30px;
+}
+
+.tenthSectionText{
+    width: 80%;
+    height: 43vh;
+    margin-left: 90px;
+    color: rgb(80, 78, 78);
+}
+
+.tenthSectionText h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.tenthSectionText p{
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.tenthSectionBtn{
+    padding: 8px 17px;
+    margin-bottom: 10px;
+    border: transparent;
+    font-size: 15px;
+    letter-spacing: 4px;
+    background-color: lightblue;
+}
+
+/* TENTH SECTION ENDS */
+
+.eleventhSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    height: 50vh;
+    color: white;
+    gap: 15px;
+}
+
+.eleventhSection ul{
+    margin-left: -30px;
+}
+
+.about {
+    margin-left: 90px;
+}
+
+.instagram ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.instagram ul li img{
+    height: 80px;
+    width: 80px;
+    
+}
+
+.eleventhSection h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.eleventhSection p{
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: rgb(54, 53, 53);
+    font-size: 14px;
+}
+
+.follow ul{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    list-style: none;
+    color: white;
+}
+
+.follow ul li a{
+    color: white;
+}
+
+.newsletter input{
+    height: 25px;
+    background-color: rgb(78, 76, 76);
+    border: transparent;
+    color:white;
+}
+
+/* ELEVENTH SECTION END */
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    color: white;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
